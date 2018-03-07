@@ -1,7 +1,5 @@
 package com.ejemplo.mydb03;
 
-import android.content.ContentValues;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +10,8 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.ejemplo.mydb03.utilidades.Utilidades;
+import com.ejemplo.mydb03.recycler.Adapter;
+import com.ejemplo.mydb03.recycler.Item;
 
 import java.util.ArrayList;
 
